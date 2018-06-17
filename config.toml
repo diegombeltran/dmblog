@@ -1,0 +1,41 @@
+## Basic Configuration
+baseurl = "https://blog.diegomunozbeltran.com"
+languageCode = "es-ES"
+
+theme = "hydeD"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+## Site Settings
+[params]
+    author = "Diego M. Beltrán"
+    title = "dmblog"
+    # description = "..."
+    authorimage = "/img/hugo.png"
+    dateformat = "2 Jan 2006"
+    highlightjs = true
+    # highlightjsstyle = "github"
+    # please choose either GraphComment or Disqus
+    # GraphCommentId = "your-graph-comment-id"
+    # layoutReverse = true
+    # sidebarSticky = true
+
+## Social Accounts
+[params.social]
+    email = "yo(at)diegomunozbeltran(dot)com"
+    gpg = "clave"
+
+## Main Menu
+[[menu.main]]
+    name = "Entradas"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Acerca de"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
