@@ -5,9 +5,11 @@ languageCode = "es-ES"
 
 theme = "hydeD"
 
+[permalinks]
+  post = "/:year/:month/:title/"
+
 ## Hugo Built-in Features
-# disqusShortname = "your-disqus-shortname"
-# googleAnalytics = "your-google-analytics-id"
+disqusShortname = "diegombeltran"
 # enableRobotsTXT = true
 
 ## Site Settings
@@ -16,16 +18,12 @@ theme = "hydeD"
     description = "Desvariando online desde 2006"
     authorimage = "/images/diegombeltran.jpg"
     dateformat = "2 Jan 2006"
-    themeColor = "theme-base-0g"
+    themeColor = "theme-base-08"
     layoutReverse = true
-    #highlightjs = true
-    # highlightjsstyle = "github"
-    # please choose either GraphComment or Disqus
-    # GraphCommentId = "your-graph-comment-id"
-    # sidebarSticky = true
 
 ## Social Accounts
 [params.social]
+    lichess = "diegombeltran"
     email = "yo(at)diegomunozbeltran(dot)com"
     gpg = "diegoPublicKey.asc"
 
@@ -34,9 +32,9 @@ theme = "hydeD"
     name = "Entradas"
     weight = 100
     identifier = "posts"
-    url = "/posts/"
+    url = "/post/"
 [[menu.main]]
-    name = "Acerca de"
-    identifier = "about"
+    name = "Acerca de..."
+    identifier = "acercade"
     weight = 200
-    url = "/about/"
+    url = "/acercade/"
