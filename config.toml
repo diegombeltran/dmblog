@@ -1,5 +1,5 @@
 ## Basic Configuration
-baseurl = "https://blog.diegomunozbeltran.com"
+baseurl = "https://blog.diegomunozbeltran.com/"
 languageCode = "es-ES"
 
 theme = "hydeD"
