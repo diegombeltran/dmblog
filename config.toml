@@ -13,14 +13,15 @@ theme = "hydeD"
 [params]
     author = "Diego M. Beltrán"
     title = "dmblog"
-    # description = "..."
-    authorimage = "/img/hugo.png"
+    description = "Desvariando online desde 2006"
+    authorimage = "/images/diegombeltran.jpg"
     dateformat = "2 Jan 2006"
-    highlightjs = true
+    themeColor = "theme-base-0g"
+    layoutReverse = true
+    #highlightjs = true
     # highlightjsstyle = "github"
     # please choose either GraphComment or Disqus
     # GraphCommentId = "your-graph-comment-id"
-    # layoutReverse = true
     # sidebarSticky = true
 
 ## Social Accounts
