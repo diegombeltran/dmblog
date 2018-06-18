@@ -1,5 +1,6 @@
 ## Basic Configuration
 baseurl = "https://blog.diegomunozbeltran.com/"
+title = "dmblog"
 languageCode = "es-ES"
 
 theme = "hydeD"
@@ -12,7 +13,6 @@ theme = "hydeD"
 ## Site Settings
 [params]
     author = "Diego M. Beltrán"
-    title = "dmblog"
     description = "Desvariando online desde 2006"
     authorimage = "/images/diegombeltran.jpg"
     dateformat = "2 Jan 2006"
