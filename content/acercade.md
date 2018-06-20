@@ -4,6 +4,6 @@ type: "staticPage"
 title: "Acerca de..."
 ---
 
-# ¿libDiego0.2-dev?
+# Acerca de
 
 En breves escribo el contenido de esta página
